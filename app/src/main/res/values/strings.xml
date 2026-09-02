@@ -1,0 +1,157 @@
+<resources>
+
+    <string-array name="languajes">
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+    </string-array>
+
+    <string name="app_name">Novosys RFID</string>
+
+
+
+
+    <string name="str_please_waitting">Please wait.&#8230;</string>
+    <string name="str_loading">Loading.&#8230;</string>
+    <string name="str_busy">Busy!</string>
+    <string name="str_success">Success</string>
+    <string name="str_faild">Faild</string>
+    <string name="str_configure">Configure</string>
+    <string name="str_ok">OK</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_confirm">Confirm</string>
+    <string name="str_back">Back</string>
+    <string name="str_exit">Exit</string>
+
+
+    <!-- UHF Read -->
+
+    <string name="List_TagID">EPC</string>
+    <string name="List_ReadCount">Count</string>
+    <string name="Tag_Time">Time:0 S </string>
+    <string name="Tag_Count">Total:0</string>
+    <string name="Tag_ReadTotalCount">SP:0 T/S</string>
+    <string name="btn_read">Start</string>
+    <string name="btn_read_stop">Stop</string>
+    <string name="Clear_Tags">Clear</string>
+    <string name="btn_Back">Back</string>
+    <string name="tv_Read_Title">Read EPC</string>
+    <string name="uhf_please_stop">Please stop!</string>
+    <string name="uhf_low_power_info">Low battery, please charge!</string>
+    <string name="uhf_low_power_consumption">Low power consumption, whether the use of the main power supply?</string>
+    <string name="uhf_read_power_over">The main power supply is being used, UHF power should not exceed 25dBm!</string>
+    <string name="uhf_data_error">Data error!</string>
+    <string name="uhf_data_len_error">The length of AccessPassword must be eight!</string>
+    <string name="uhf_6b_not_support_match_mode">The 6B tag does not support match read!</string>
+
+
+    <!-- Configration -->
+    <string name="tv_Configration_BaseSpeed">BaseSpeed:</string>
+    <string name="tv_Configration_QValue">QValue:</string>
+    <string name="tv_Configration_Frequency">Frequency:</string>
+    <string name="tv_Configration_Power">Power:</string>
+    <string name="tv_Configration_Ant">ANT:</string>
+    <string name="tv_Configration_TagType">TagType:</string>
+    <string name="btn_Get">GET</string>
+    <string name="btn_Set">SET</string>
+    <string name="btn_ReadTime">ReadTime(ms):</string>
+    <string name="btn_StopTime">StopTime(ms): </string>
+    <string name="btn_Salir">Exit</string>
+    <string name="btn_CARRIER">CARRIER</string>
+    <string name="btn_UpdateBase">UpdateBase</string>
+
+
+    <!-- act_Login -->
+    <string name="login_Usuario">User:</string>
+    <string name="login_Password">Password:</string>
+    <string name="login_IniciarSesion">Login</string>
+    <string name="login_ErrorIniciarSesion">Login Error</string>
+    <string name="str_en">Ingles</string>
+    <string name="str_es">Español</string>
+    <string name="str_Lenguaje">Cambiar Idioma</string>
+
+    <!-- MenuPrincipal -->
+    <string name="menuPrincipal_InventarioExpress">Express Inventory</string>
+    <string name="menuPrincipal_InventarioConsolidado">Consolidated Inventory</string>
+    <string name="menuPrincipal_BusquedaDeProximidad">Proximity search</string>
+    <string name="menuPrincipal_SincronizacionDeDatos">Data sync</string>
+    <string name="menuPrincipal_ConfigurarHH">Configure HH</string>
+    <string name="MenuInvConsolidado_ConciliarInventario">Check Inventory</string>
+    <string name="MenuInvConsolidado_AgruparParaInventario">Group for Inventory</string>
+    <string name="menuInvConsolidado_VerDetallesActivo">Fixed Asset Details</string>
+    <string name="menuInvConsolidado_MOstrarActivosConsolidados">Fixed Asets Fount</string>
+    <string name="menuInvConsolidado_MostrarActivosFaltantes">Fixed Assets NOT Found</string>
+    <string name="menuInvConsolidado_EditarActivoSeleccionado">Edit Current Asset</string>
+    <string name="menuInvConsolidado_BuscarEdificioUbi">Search Cost Center and Location</string>
+    <string name="menuInvConsolidado_BuscarPorEpc">Search by EPC</string>
+    <string name="menuInvConsolidado">Save Progress</string>
+    <string name="popUpInvConsolidado_TraerAvanceDeInventario">Bring Inventory Advance</string>
+    <string name="popUpInvConsolidado_ReiniciarInventario">Reset Inventory</string>
+    <string name="popUpInvConsolidado_EliminarAvanceInventarioGeneral">Clear Inventory</string>
+    <string name="login_LoginError">Incorrect credentials</string>
+    <string name="txt_Clave">Id</string>
+    <string name="txt_Descripcion">Description</string>
+    <string name="txt_Marca">Brand</string>
+    <string name="txt_NumeroSerie">Serial Number</string>
+    <string name="txt_Modelo">Model</string>
+    <string name="btn_Regresar">Back</string>
+    <string name="btn_Guardar">Save</string>
+    <string name="txt_ModoLecturaTodos">Read Mode: All</string>
+    <string name="txt_LectorRFID">Reader: RFID</string>
+    <string name="txt_Total">Total</string>
+    <string name="txt_DatosBasicos">Basic Data</string>
+    <string name="txt_Activo">Asset</string>
+    <string name="txt_Ubi">Loc.</string>
+    <string name="txt_Conteo">Count.</string>
+    <string name="txt_IdEdificio">Id Cost Center:</string>
+    <string name="btn_Buscar">Search</string>
+    <string name="btn_Aceptar">Ok</string>
+    <string name="txt_SoftwareToHandHeld">Main Software >> Hand Held</string>
+    <string name="txt_MensajeDeClicParaSync">Click on the following button to start the information synchronization</string>
+    <string name="txt_CentroDeCostos">Cost Center</string>
+    <string name="txt_SeleccionCentoDeCostos">Cost Center Selection</string>
+    <string name="txt_HHtoSoftwareCentral">Hand Held >> Main Software</string>
+    <string name="txt_NoTieneActivosParaSync">Has no assets to sync</string>
+    <string name="btn_BorrarInformacionHH">Delete HH Inventory Inf</string>
+    <string name="btn_EnviarInventarioaTXT">Inventory Inf to TXT</string>
+    <string name="btn_CopiarBD">Copy Database</string>
+    <string name="txt_EstadoListoParaProcesarSincronizacion">Estate = Ready to process synchronization</string>
+    <string name="btn_BorrarCahceDB">Delete Cache and Data</string>
+    <string name="txt_NomCC">Nom CC</string>
+    <string name="txt_FechaAD">AD Date</string>
+    <string name="txt_Costo">Cost</string>
+    <string name="txt_TipoActivo">Asset Type</string>
+    <string name="txt_Zona1PJENL">Zone 1: PJENL</string>
+    <string name="txt_SubirNActivosAlSoftwareCentral">Upload # assets to the main software</string>
+    <string name="txt_SubirInventariosAlSoftwareCentral">Upload Inventory to the Main Software</string>
+    <string name="txt_SincronizacionCompleta">Synchronization Completed</string>
+    <string name="txt_ArchivoGuardadoEnDescargas">File saved in downloads</string>
+    <string name="txt_PorFavorEscribeLaContrasenia">Please Enter Password</string>
+    <string name="txt_ArchivoCopiadoCorrectamente">File copied successfully</string>
+    <string name="txt_ContraseniaIncorrecta">Incorrect password</string>
+    <string name="txt_Cancelar">Cancel</string>
+    <string name="txt_ProcesoCancelado">Process Cancelled</string>
+    <string name="txt_OperacionCompleta">Complete Operation!!</string>
+    <string name="txt_NoHayActivosPorBorrar">No Inventory Assets to Delete</string>
+    <string name="txt_BorrarCacheDB">Clear CACHE and DB</string>
+    <string name="txt_EsteProcesoBorraraChace">This process will clear the cache and the DB, this process cannot be undone, are you sure you want to continue?, To confirm this process type CACHE</string>
+    <string name="txt_ErrorCreandoBD">Error creating the DB</string>
+    <string name="txt_TablaInventarioLocalBorrada">Deleted Local Inventory Table</string>
+    <string name="txt_FilasEnLocal">Rows in Local</string>
+    <string name="txt_FilasEnHistorial">Rows in history</string>
+    <string name="txt_DatosCargadosEnAPI">Data successfully loaded into API!!!!!</string>
+    <string name="txt_Opciones">Options</string>
+    <string name="txt_Procesos">Process</string>
+    <string name="txt_Proximidad">Proximity</string>
+    <string name="btn_Restore">Restore Config</string>
+    <string name="txt_SeleccioneUnActivo">Select the Asset</string>
+    <string name="txt_ProcesoRealizadoConExito">Successful process</string>
+    <string name="txt_InformacionAlmacenada">Stored Information</string>
+    <string name="txt_Verifique">Check</string>
+    <string name="txt_NoHaSeleccionadoCentroDeCostos">You have not selected cost center</string>
+    <string name="txt_piso">Floor</string>
+    <string name="LblBarcode">Barcode</string>
+    <string name="MenuScanBarcode">Barcode Scan</string>
+    <string name="MsgCodigoInvalido">Invalid Barcode</string>
+
+
+</resources>

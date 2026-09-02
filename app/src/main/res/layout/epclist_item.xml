@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/EPCList_TipoProd"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:textColor="#141312"
+        android:text="T"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/EPCList_TagID"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="35"
+        android:text="@string/List_TagID"
+        android:textStyle="bold"
+        android:singleLine="false"/>
+
+    <TextView
+        android:id="@+id/EPCList_Encontrado"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textColor="#141312"
+        android:text="E"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/EPCList_DescActivo"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:autoSizeTextType="uniform"
+        android:text="@string/txt_Activo"
+        android:textColor="#141312"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/EPCRecibido"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:autoSizeTextType="uniform"
+        android:text=""
+        android:textColor="#141312"
+        android:textStyle="bold"
+        />
+
+    
+    <TextView
+        android:id="@+id/EPCList_ReadCount"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:text="@string/List_ReadCount"
+        android:textStyle="bold"
+        android:singleLine="false"/>
+
+</LinearLayout>

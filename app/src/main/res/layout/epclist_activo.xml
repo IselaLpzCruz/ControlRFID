@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="5dp"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/txtCodigoActivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:text="CODIGO"
+        android:textStyle="bold"
+        android:textColor="#141312"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtDescripcionActivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:text="DESCRIPCION"
+        android:textStyle="bold"
+        android:textColor="#141312"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtEPCActivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="EPC"
+        android:textStyle="bold"
+        android:textColor="#141312"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtBarcodeActivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="BARCODE"
+        android:textStyle="bold"
+        android:textColor="#141312"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtUbicacionActivo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="UBICACION"
+        android:textStyle="bold"
+        android:textColor="#141312"
+        android:textSize="15dp" />
+
+</LinearLayout>

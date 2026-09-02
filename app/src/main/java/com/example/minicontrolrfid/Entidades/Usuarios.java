@@ -1,8 +1,9 @@
 package com.example.minicontrolrfid.Entidades;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Usuarios
+public class Usuarios implements Serializable
 {
     private int IdUsuario;
     private String Nombre;
@@ -80,7 +81,7 @@ public class Usuarios
         Password = password;
     }
 
-    public boolean isActivo()
+    public boolean getActivo()
     {
         return Activo;
     }

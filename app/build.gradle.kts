@@ -43,4 +43,10 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     implementation(files("libs/pdasdk_v3.45_20250317.jar"))
     implementation(group = "", name = "DeviceAPI_ver20240904", ext = "aar")
+    implementation(group = "", name = "BarcodeAPI_ver20250208_Mtk", ext = "aar")
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
 }

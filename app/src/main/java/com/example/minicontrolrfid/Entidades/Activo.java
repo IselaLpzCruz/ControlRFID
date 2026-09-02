@@ -145,7 +145,7 @@ public class Activo
         NumeroSerie = numeroSerie;
     }
 
-    public boolean isActivo()
+    public boolean getActivo()
     {
         return Activo;
     }

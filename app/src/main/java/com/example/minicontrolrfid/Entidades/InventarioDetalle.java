@@ -135,7 +135,7 @@ public class InventarioDetalle
         Cantidad = cantidad;
     }
 
-    public boolean isSincronizado()
+    public boolean getSincronizado()
     {
         return Sincronizado;
     }
@@ -145,7 +145,7 @@ public class InventarioDetalle
         Sincronizado = sincronizado;
     }
 
-    public boolean isActivo()
+    public boolean getActivo()
     {
         return Activo;
     }

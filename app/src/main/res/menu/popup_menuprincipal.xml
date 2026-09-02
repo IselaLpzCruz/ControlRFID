@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemMenuIniciarInventario"
+        android:title="@string/menuPrincipal_IniciarInventario" />
+
+    <item
+        android:id="@+id/itemMenuConsultarInventarios"
+        android:title="@string/menuPrincipal_ConsultarInventarios" />
+
+    <item
+        android:id="@+id/itemMenuSincronizar"
+        android:title="@string/menuPrincipal_SincronizacionDeDatos" />
+
+    <item
+        android:id="@+id/itemMenuConfigRFID"
+        android:title="@string/menuPrincipal_ConfigurarHH" />
+
+    <item
+        android:id="@+id/itemMenuCerrarSesion"
+        android:title="@string/menuPrincipal_CerrarSesion" />
+
+</menu>

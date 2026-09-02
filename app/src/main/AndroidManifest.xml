@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- BarcodeAPI_ver20250208_Mtk.aar declara minSdk 26; el proyecto soporta minSdk 24 -->
+    <uses-sdk tools:overrideLibrary="com.barcode.deviceapi" />
 
     <application
         android:allowBackup="true"
@@ -13,10 +18,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniControlRFID">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize">
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +34,13 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Activities.SincronizacionActivity" />
+        <activity android:name=".Activities.SeleccionarUbicacionActivity" />
+        <activity android:name=".Activities.InventarioActivity" />
+        <activity android:name=".Activities.InventariosActivity" />
+        <activity android:name=".Activities.InventarioDetalleActivity" />
         <activity android:name=".Activities.LecturaRFIDActivity" />
+        <activity android:name=".UHF.UHFConfigActivity" />
     </application>
 
 </manifest>

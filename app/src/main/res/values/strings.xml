@@ -153,5 +153,23 @@
     <string name="MenuScanBarcode">Barcode Scan</string>
     <string name="MsgCodigoInvalido">Invalid Barcode</string>
 
+    <!-- MenuPrincipal MiniControlRFID -->
+    <string name="menuPrincipal_IniciarInventario">Iniciar Inventario</string>
+    <string name="menuPrincipal_ConsultarInventarios">Consultar Inventarios</string>
+    <string name="menuPrincipal_CerrarSesion">Cerrar Sesión</string>
+
+    <!-- Sincronizacion MiniControlRFID -->
+    <string name="txt_SincronizarCatalogos">Sincronizar Catálogos</string>
+
+    <!-- Seleccionar Ubicacion -->
+    <string name="txt_SeleccionarUbicacion">Selecciona una Ubicación</string>
+
+    <!-- Inventario (captura RFID/Barcode) -->
+    <string name="txt_LectorBarcode">Lector: BARCODE</string>
+    <string name="txt_CambiarModo">Cambiar Modo</string>
+    <string name="txt_Finalizar">Finalizar</string>
+    <string name="txt_ActivoNoEncontrado">Activo no encontrado</string>
+    <string name="txt_ConsultarInventarios">Inventarios</string>
+    <string name="txt_DetalleInventario">Detalle de Inventario</string>
 
 </resources>

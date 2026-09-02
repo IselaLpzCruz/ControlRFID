@@ -96,7 +96,7 @@ public class Inventario
         Estatus = estatus;
     }
 
-    public boolean isSincronizado()
+    public boolean getSincronizado()
     {
         return Sincronizado;
     }
@@ -106,7 +106,7 @@ public class Inventario
         Sincronizado = sincronizado;
     }
 
-    public boolean isActivo()
+    public boolean getActivo()
     {
         return Activo;
     }

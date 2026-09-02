@@ -67,7 +67,7 @@ public class Ubicacion
         Descripcion = descripcion;
     }
 
-    public boolean isActivo()
+    public boolean getActivo()
     {
         return Activo;
     }
